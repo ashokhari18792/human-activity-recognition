@@ -1,0 +1,131 @@
+Total Duplicates Train: 0 
+
+
+
+Total Duplicates in Test: 0 
+
+
+
+Total Null values in Train: 0
+
+
+
+Total Null values in Test: 0 
+
+
+
+CPU times: user 3 µs, sys: 0 ns, total: 3 µs
+
+Wall time: 7.15 µs
+
+[t-SNE] Computing 151 nearest neighbors...
+
+[t-SNE] Indexed 7352 samples in 0.540s...
+
+[t-SNE] Computed neighbors for 7352 samples in 44.365s...
+
+[t-SNE] Computed conditional probabilities for sample 1000 / 7352
+
+[t-SNE] Computed conditional probabilities for sample 2000 / 7352
+
+[t-SNE] Computed conditional probabilities for sample 3000 / 7352
+
+[t-SNE] Computed conditional probabilities for sample 4000 / 7352
+
+[t-SNE] Computed conditional probabilities for sample 5000 / 7352
+
+[t-SNE] Computed conditional probabilities for sample 6000 / 7352
+
+[t-SNE] Computed conditional probabilities for sample 7000 / 7352
+
+[t-SNE] Computed conditional probabilities for sample 7352 / 7352
+
+[t-SNE] Mean sigma: 1.437672
+
+[t-SNE] KL divergence after 250 iterations with early exaggeration: 74.125961
+
+[t-SNE] KL divergence after 1000 iterations: 1.282853
+
+Training data size: (7352, 561)
+
+Test data size: (2947, 561)
+
+Accuracy using Logisitc Regression: 0.9562266711910418
+
+Best estimator: LogisticRegression(C=60)
+
+Best set of parameters: {'penalty': 'l2', 'C': 60}
+
+Best score: 0.9334947303190481
+
+Accuracy using Linear SVM: 0.9674244994910078
+
+Best estimator: LinearSVC(C=1, tol=5e-05)
+
+Best set of parameters: {'C': 1}
+
+Best score: 0.9417919227514255
+
+Accuracy using Kernel SVM: 0.9423142178486597
+
+Best estimator: SVC(C=8, gamma=0.125)
+
+Best set of parameters: {'gamma': 0.125, 'C': 8}
+
+Best score: 0.896632121237346
+
+Accuracy using Decision tree: 0.8727519511367492
+
+Best estimator: DecisionTreeClassifier(max_depth=8)
+
+Best set of parameters: {'max_depth': 8}
+
+Best score: 0.8486214662615555
+
+Accuracy using Random Forest: 0.9144893111638955
+
+/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2561: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+
+  FutureWarning,
+
+[NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+
+[NbConvertApp] Writing 750312 bytes to __notebook__.ipynb
+
+/opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2561: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+
+  FutureWarning,
+
+[NbConvertApp] Converting notebook __notebook__.ipynb to html
+
+[NbConvertApp] Support files will be in __results___files/
+
+[NbConvertApp] Making directory __results___files
+
+[NbConvertApp] Making directory __results___files
+
+[NbConvertApp] Making directory __results___files
+
+[NbConvertApp] Making directory __results___files
+
+[NbConvertApp] Making directory __results___files
+
+[NbConvertApp] Making directory __results___files
+
+[NbConvertApp] Making directory __results___files
+
+[NbConvertApp] Making directory __results___files
+
+[NbConvertApp] Making directory __results___files
+
+[NbConvertApp] Making directory __results___files
+
+[NbConvertApp] Making directory __results___files
+
+[NbConvertApp] Making directory __results___files
+
+[NbConvertApp] Making directory __results___files
+
+[NbConvertApp] Making directory __results___files
+
+[NbConvertApp] Writing 396046 bytes to __results__.html
